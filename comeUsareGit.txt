@@ -67,7 +67,13 @@
 		git merge NOMEBRANCH
 			es: git merge dev
 
+4 ELIMINA IL BRANCH IN LOCALE
+	SPOSTATI SU UN'ALTRO BRANCH E SCRVI:
+		git branch -d nome-branch 
+	OPPURE PER FORZARE L'ELEMINAZIONE ANCHE SE NON MERGIATO SCRIVI
+		git branch -D nome-branch
 
-
-
+5 ELIMINA IL BRANCH IN REMOTO
+	SPOSTATI SU UN'ALTRO BRANCH E SCRVI:
+		git push origin --delete nome-branch
 
